@@ -12,7 +12,7 @@ function Blog() {
 
   return (
     <>
-      <div className="blogpage">
+      <div className="blogpage mb-8 mt-8">
         <div className="container">
           <div className="blog-container flex">
             <div className="image">
@@ -162,10 +162,58 @@ function Blog() {
               </div>
             </div>
           </div>
+
+          <div className="blog-container flex">
+            <div className="image">
+              <img
+                src="https://nexgits.com/wp-content/uploads/2023/02/The-Benefits-of-Investing-in-Custom-Mobile-App-Development-for-Your-Business.jpg"
+                alt=""
+              />
+            </div>
+            <div className="blog-para">
+              <p className="blog-date pt-5">_ April 3, 2023_ Expint</p>
+              <h5 className="mt-3">
+                The Benefits of Investing in Custom Mobile App Development for
+                Your Business
+              </h5>
+              <p className="blog-description">
+                The Benefits of Investing in Custom Mobile App Development for
+                Your Business The behavior of consumers continues to evolve with
+                each passing day. They’ve changed the way they interact with
+                businesses, shop and communicate. Indian consumers are super
+                tech-savvy and have adapted to digital technologies in a big
+                way! According to statistics, with over 500 […]
+              </p>
+              <div
+                className="flex align-center cursor-pointer items-center mt-3"
+                onClick={() => Navigate(Routes.mobileAppDevelopment)}
+              >
+                <span className="blog-date">Learn More</span>
+                <svg
+                  fill="#43BAFF"
+                  height="20px"
+                  width="20px"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 330 330"
+                  xmlSpace="preserve"
+                >
+                  <path
+                    id="XMLID_27_"
+                    d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+  s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+  c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
   );
 }
- 
+
 export default Blog;

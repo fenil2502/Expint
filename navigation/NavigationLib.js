@@ -52,6 +52,13 @@ export const Routes = {
     isQueryParams: true,
     isEncryptParams: false,
   },
+
+  mobileAppDevelopment: {
+    rawPath: "/mobileAppDevelopment/MobileAppDevelopment",
+    urlPath: "/mobileAppDevelopment",
+    isQueryParams: true,
+    isEncryptParams: false,
+  },
 };
 
 //Common navigation method
