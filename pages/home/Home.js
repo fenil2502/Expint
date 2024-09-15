@@ -116,7 +116,7 @@ function Home() {
           <div className="container">
             <div className="banner-inner">
               <div className="intro">
-                <p>// Driving Innovation and Growth</p>
+                <p>{'//'} Driving Innovation and Growth</p>
                 <h1>
                   END-TO-END IT SOLUTION
                   <br />
@@ -168,7 +168,7 @@ function Home() {
             <div className="company-overview-inner">
               <div className="company-details">
                 <div className="overview-heading">
-                  <span>// about company</span>
+                  <span>{'//'} about company</span>
                   <h2>
                     Best-in-Class
                     <br />
@@ -216,7 +216,7 @@ function Home() {
           <div className="container">
             <div className="why-expint-title">
               <div className="ot-heading">
-                <span>// why choose Expint?</span>
+                <span>{'//'} why choose Expint?</span>
                 <h2 className="we-main-heading">
                   Bridging The Gap
                   <br />
@@ -308,7 +308,7 @@ function Home() {
           <div className="container">
             <div className="service-heading">
               <div className="overview-heading">
-                <span>// our service</span>
+                <span>{'//'} our service</span>
                 <h2>
                   Our Full-Suite of
                   <br />
@@ -387,7 +387,7 @@ function Home() {
         <div className="our-exoertise">
           <div className="container">
             <div className="expertise-heading">
-              <span>// Fusing Real-World Expertise with Cutting-Edge Tech</span>
+              <span>{'//'} Fusing Real-World Expertise with Cutting-Edge Tech</span>
               <h2 className="we-main-heading">
                 Let s Build a Solution Compatible
                 <br />
@@ -399,7 +399,7 @@ function Home() {
         <div className="our-partners">
           <div className="container">
             <div className="overview-heading text-center mt-10">
-              <span>// OUR PARTNERS</span>
+              <span>{'//'} OUR PARTNERS</span>
               <h2>
                 Accreditation and Trusted Partnerships
                 <br />

@@ -24,7 +24,7 @@ function About() {
           <div className="container">
             <div className="about-banner-inner">
               <div className="banner-text">
-                <span>// About The Company</span>
+                <span>{'//'} About The Company</span>
                 <h1>ABOUT US</h1>
                 <p>
                   We are a team of passionate tech geeks who offer Excellence,
@@ -47,7 +47,7 @@ function About() {
                 <img src="./Our_Mission.webp" alt="Our Mission" />
               </div>
               <div className="our-journey-details">
-                <span>// our story</span>
+                <span>{'//'} our story</span>
                 <h2>Where Did We Start?</h2>
                 <p>
                   Expint, earlier known as Maruti Games, is an ISO Certified
@@ -76,7 +76,7 @@ function About() {
                 <img src="./Our_Mission_11zon.webp" alt="Our Mission" />
               </div>
               <div className="our-mission-details">
-                <span>// our mission</span>
+                <span>{'//'} our mission</span>
                 <h2>What We Aiming For</h2>
                 <p>
                   Our aim is to partner with clients and help them simplify,
@@ -98,7 +98,7 @@ function About() {
                 <img src="./Our_Vision-1.webp" alt="Our Vision" />
               </div>
               <div className="our-vision-details">
-                <span>// our vision</span>
+                <span>{'//'} our vision</span>
                 <h2>Where Do We See Ourselves?</h2>
                 <p>
                   As a world leader, delivering best-in-class innovative digital
@@ -116,7 +116,7 @@ function About() {
                 <img src="./Our_Philosophy-1.webp" alt="Our Philosophy" />
               </div>
               <div className="our-philosophy-details">
-                <span>// our philosophy</span>
+                <span>{'//'} our philosophy</span>
                 <h2>What We Believe In</h2>
                 <p>
                   At Expint, we believe the philosophy of targeted focus leads
