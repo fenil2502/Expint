@@ -1,0 +1,128 @@
+@import "variables.scss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+// Common Styles Start
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 63px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+}
+
+h2 {
+  font-size: 42px;
+  line-height: 53px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+}
+
+h4 {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+}
+
+button.blue-btn {
+  font-size: 14px;
+  padding: 14px 30px 14px 30px;
+  line-height: 1.42857143;
+  display: inline-block;
+  margin-bottom: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-weight: bold;
+  text-align: center;
+  background: #43baff;
+  cursor: pointer;
+  border: 1px solid transparent;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+button.blue-btn:hover {
+  background: #337FEF;
+}
+
+button.pink-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  background: linear-gradient(90deg, #770942, #dd117b);
+  border-radius: 20px 0;
+  color: var(--white);
+  border: none;
+}
+
+button.pink-btn:hover {
+  background: var(--primary);
+}
+
+@media only screen and (max-width: 1440px) {
+  h1 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  h2 {
+    font-size: 34px;
+    line-height: 43px;
+  }
+
+  h3 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  h4 {
+    font-size: 26px;
+    line-height: 33px;
+  }
+
+  h5 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+// Common Styles End

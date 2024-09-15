@@ -1,0 +1,309 @@
+:root {
+  --primary: #DD117B;
+  --secondary: #29166F;
+  --light: #EADEDA;
+  --dark: #1D2730;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  min-width: 100%;
+  flex: 0 0 auto;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: transparent !important;
+  height: 100% !important;
+
+  h3 {
+    font-size: 24px;
+  }
+}
+
+.prev-arrow,.next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.certi-logo {
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    max-height: 80px;
+    width: auto;
+    padding: 30px;
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 1px 10px rgb(0, 0, 0, 0.10);
+  }
+}
+
+/* -----Header CSS start----- */
+.header {
+  padding: 20px 0;
+
+  .header-inner {
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .logo {
+
+        img {
+          max-width: 250px;
+        }
+      }
+
+      .menu {
+
+        .menu-links {
+          display: flex;
+          gap: 60px;
+          align-items: center;
+
+          div {
+            font-size: 18px;
+            line-height: 23px;
+            font-weight: 600;
+            font-family: 'DM Sans';
+            color: var(--secondary);
+            text-decoration: none;
+            cursor: pointer;
+          }
+
+          .contact-btn  {
+            padding: 15px 30px;
+            font-weight: 700;
+            background: linear-gradient(90deg, #43baff, #54b7f1);
+            border-radius: 20px 0;
+            color: var(--white) !important;
+            display: flex;
+            gap: 10px;
+            border: 0;
+          }
+          
+          .contact-btn:hover {
+            background: var(--primary);
+            color: var(--white);
+          }
+        }
+      }
+    }
+
+    button.navbar-toggler {
+      display: none;
+    }
+  }
+}
+/* -----Header CSS end----- */
+
+/* -----Footer CSS start----- */
+.footer {
+
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+
+    .footer-col-1 {
+      max-width: 450px;
+
+      .footer-logo {
+
+        img {
+          max-width: 250px;
+          margin-bottom: 20px;
+        }
+      }
+
+      p {
+        color: var(--white);
+      }
+    }
+
+    .footer-col-2 {
+      max-width: 140px;
+
+      h5 {
+        color: var(--white);
+        margin-bottom: 30px;
+      }
+    
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    
+        li {
+          margin-bottom: 10px;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+
+    .footer-col-3 {
+      max-width: 320px;
+
+      h5 {
+        color: var(--white);
+        margin-bottom: 30px;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    
+        li {
+          margin-bottom: 10px;
+          display: flex;
+          align-items: start;
+
+          a {
+            font-size: 18px;
+            line-height: 23px;
+            font-weight: 500;
+            font-family: 'DM Sans';
+            text-decoration: none;
+            color: var(--white);
+            cursor: pointer;
+          }
+        }
+        li:nth-child(1) {
+          align-items: center;
+        }
+      }
+
+      .social-icons {
+
+        a {
+          padding: 10px;
+          background-color: var(--white);
+          border-radius: 50%;
+          box-shadow: 0 1px 15px rgb(0, 0, 0, 0.10);
+
+          svg {
+            width: 20px;
+            height: 20px;
+            color: var(--secondary);
+          }
+        }
+
+        a:hover {
+          background-color: var(--primary);
+        }
+
+      }
+    }
+  }
+
+  .copyright {
+    padding: 20px 0;
+    border-top: 1px solid var(--white);
+    text-align: center;
+
+    .copyright-inner {
+
+      p {
+        color: var(--white);
+      }
+    }
+  }
+}
+/* -----Footer CSS end----- */
+
+@media only screen and (max-width: 1024px) {
+
+  /* -----Header CSS start----- */
+  .header {
+    padding: 20px 0;
+  
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+  
+      .navbar {
+        display: block;
+  
+        .menu {
+          display: none;
+        }
+      }
+  
+      button.navbar-toggler {
+        display: block;
+        background: none;
+        border: none;
+        padding: 0px;
+
+        svg {
+          width: 30px;
+          height: 30px;
+          color: var(--primary);
+        }
+      }
+    }
+
+    .mobile-menu {
+      display: block !important;
+
+      .menu-links {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+
+        div {
+          padding: 20px 0;
+        }
+
+        .contact-btn {
+          padding-bottom: 10px;
+          color: var(--primary);
+          background: none;
+
+          img {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  /* -----Header CSS end----- */
+
+  /* -----Footer CSS start----- */
+  .footer {
+
+    .footer-inner {
+      flex-direction: column;
+      gap: 50px;
+      padding: 40px 0;
+    }
+  }
+  /* -----Footer CSS end----- */
+}
