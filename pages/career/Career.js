@@ -62,16 +62,16 @@ function Career() {
           </div>
           <h4 className="text-center mt-5 mb-5">Opening Positions</h4>
         </div>
-        <div class="job-sec">
-          <div class="container">
-            <div class="job-sec-inner">
-              <div class="job-card">
-                <div class="job">
-                  <div class="job-description">
-                    <div class="job-name">
+        <div className="job-sec">
+          <div className="container">
+            <div className="job-sec-inner">
+              <div className="job-card">
+                <div className="job">
+                  <div className="job-description">
+                    <div className="job-name">
                       <h3>Data Analyst</h3>
                     </div>
-                    <div class="job-details">
+                    <div className="job-details">
                       <p>
                         <span>Experience : </span>0 to 1 year
                       </p>
@@ -83,7 +83,7 @@ function Career() {
                   {/* <button>Apply now</button> */}
                 </div>
 
-                <div class="job-specification mt-3">
+                <div className="job-specification mt-3">
                   <h4>Job responsibilities</h4>
                   <ul>
                     <li>
@@ -106,7 +106,7 @@ function Career() {
                     </li>
                   </ul>
                 </div>
-                <div class="job-skills  mt-3">
+                <div className="job-skills  mt-3">
                   <h4>Key skills</h4>
                   <ul>
                     <li>
@@ -131,13 +131,13 @@ function Career() {
                   </ul>
                 </div>
               </div>
-              <div class="job-card">
-                <div class="job">
-                  <div class="job-description">
-                    <div class="job-name">
+              <div className="job-card">
+                <div className="job">
+                  <div className="job-description">
+                    <div className="job-name">
                       <h3>Data Analyst</h3>
                     </div>
-                    <div class="job-details">
+                    <div className="job-details">
                       <p>
                         <span>Experience : </span>0 to 1 year
                       </p>
@@ -149,7 +149,7 @@ function Career() {
                   {/* <button>Apply now</button> */}
                 </div>
 
-                <div class="job-specification  mt-3">
+                <div className="job-specification  mt-3">
                   <h4>Job responsibilities</h4>
                   <ul>
                     <li>
@@ -172,7 +172,7 @@ function Career() {
                     </li>
                   </ul>
                 </div>
-                <div class="job-skills mt-3">
+                <div className="job-skills mt-3">
                   <h4>Key skills</h4>
                   <ul>
                     <li>
