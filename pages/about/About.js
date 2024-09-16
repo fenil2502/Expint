@@ -129,7 +129,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="team">
+        {/* <div className="team">
           <div className="container">
             <div className="team-inner">
               <div className="team-heading">
@@ -161,7 +161,7 @@ function About() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <Footer /> */}
       </div>
     </>
