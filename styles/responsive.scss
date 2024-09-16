@@ -1061,6 +1061,18 @@ div {
   }
   /* -----Productpage CSS end----- */
 
+  .careerpage {
+    .job-sec {
+      .job-sec-inner {
+        grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+      }
+    }
+  }
+
+  .service-box-sec {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+
   /* -----Contactpage CSS start----- */
   .contact-banner {
     .contact-banner-inner {
@@ -1297,12 +1309,13 @@ div {
 }
 
   /* -----Career CSS end----- */
-  .blogpage{
+  .careerpage{
     .job-sec {
       .container{
         .job-sec-inner {
           display: grid;
           grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 30px;
           .job-card {
             padding: 30px;
             width: 100%;
@@ -1315,8 +1328,9 @@ div {
               justify-content: space-between;
       
               .job-description {
+                margin-bottom: 20px;
                 .job-name {
-                  h3 {
+                  h4 {
                     margin: 0 0 20px;
                   }
                 }
@@ -1325,9 +1339,10 @@ div {
                   gap: 50px;
                   p {
                     font-weight: 700;
-                    opacity: 0.5;
+                    color: var(--secondary);
                     span {
                       font-weight: 600;
+                      color: #6d6d6d;
                     }
                   }
                 }
@@ -1335,8 +1350,25 @@ div {
             }
       
             .job-specification, .job-skills {
-              h4 {
-                margin: 0 0 15px;
+              h5 {
+                margin: 0 0 10px;
+              }
+              ul {
+                list-style: disc;
+                padding-left: 20px;
+
+                li {
+                  font-family: "DM Sans", sans-serif;
+                  padding-bottom: 5px;
+                }
+              }
+              p {
+                a{ 
+                  color: var(--primary);
+                }
+                a:hover{ 
+                  color: var(--secondary);
+                }
               }
             }
           }
@@ -1344,6 +1376,11 @@ div {
       }
       
     }
+  }
+
+  .service-box-sec {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
   }
   
     /* -----Career CSS end----- */
