@@ -24,6 +24,7 @@ function Header() {
                 <div onClick={() => Navigate(Routes.home)}>Home</div>
                 <div onClick={() => Navigate(Routes.about)}>About Us</div>
                 <div onClick={() => Navigate(Routes.blog)}>Blog</div>
+                <div onClick={() => Navigate(Routes.career)}>Career</div>
                 <div className="contact-btn" onClick={() => Navigate(Routes.contact)}>Get a quote</div>
               </div>
             </div>
@@ -42,6 +43,7 @@ function Header() {
                 <div onClick={() => Navigate(Routes.home)}>Home</div>
                 <div onClick={() => Navigate(Routes.about)}>About</div>
                 <div onClick={() => Navigate(Routes.blog)}>Blog</div>
+                <div onClick={() => Navigate(Routes.career)}>Career</div>
                 <div className="contact-btn" onClick={() => Navigate(Routes.contact)}>Get a quote</div>
               </div>
         </div>

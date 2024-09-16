@@ -25,6 +25,13 @@ export const Routes = {
     isEncryptParams: false,
   },
 
+  career: {
+    rawPath: "/career/Career",
+    urlPath: "/career",
+    isQueryParams: true,
+    isEncryptParams: false,
+  },
+
   contact: {
     rawPath: "/contact/ContactUs",
     urlPath: "/contact",
